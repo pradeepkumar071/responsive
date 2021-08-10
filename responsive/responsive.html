@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive Template</title>
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+   <div class="wrapper">
+<!--NAVIGATION-->
+       <nav>
+          <img src="https://tse2.mm.bing.net/th?id=OIP.l9EhygWkOFOGLvFZ7tONQQHaE_&pid=1.7&w=285&h=216&c=8&dpr=1" class="img" alt="logo"> 
+          <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">COURSES</a></li>
+              <li><a href="#">EVENTS</a></li>
+              <li><a href="#">GALLERY</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">PAGES</a></li>
+              <li><a href="#">CONTACT</a></li>
+          </ul>
+       </nav>
+<!--END OF NAVIGATION-->
+      
+      <div class="section">
+          <h1>BRINGING HAPPINESS<br>THROUGH SOUND</h1>
+          <P>DJ is not a machine,Its feeling of soul and it make happy.When we are play DJ its makes me dance on the floor.
+            The remix slot are very power full sound </P><br>
+          
+          <a href="#"><button class="btn-1">GET STARTED</button></a>
+<!--FEATURES-->
+         <div class="features">
+            <button>DJ</button>
+            <button>FLOOR DJ</button>
+            <button>AV DJ</button>
+            <button>DISCO DJ</button>
+         </div>
+         </div>
+<!--END OF FEATURES-->
+      </div>
+<!--END OF SECTION-->
+   </div>
+<!--END OF WRAPPER-->
+<br>
+       <P>In the early 1990s, a teenager named Robert Earl Davis Jr. pioneered the DJ style known as “screwed and chopped” in a small apartment on the Southside of Houston, Texas. His friends already called him DJ Screw back then, but the world hadn’t yet learned about the quiet dude with the flat top and that big sound. Just a couple of years later, his music would become impossible to ignore around Houston. Over the next decade, Screw mixed and record hundreds 
+           of “Screwtapes” with dozens of collaborators, birthing a legacy that would continue to grow long after his death in November 2000.</P>
+
+<!--PARALLAX SCROLLING EFFECT-->
+     <div class="parallax"></div>
+     <p>One of the most uncomfortable things for me when I started getting booked for gigs was when promoters started asking for my “bio”.  The first time someone asked me for this, I went into an immediate panic.  Was this something I was supposed to have?  How do I go about bragging about myself?  Have I even accomplished enough to warrant a bio? 
+          Do I write it in first person or third person?  Is someone else supposed to write it?  Where do I even begin?</p>
+          <P>I recently realized that I’ve been doing this for years, and I don’t feel any less comfortable with handing out a bio.  But, it’s something that promoters ask for.  So, rather than continuing to ignore the problem, I decided to do some research on the subject and re-visit my own promotional blurb.  In this post, 
+              I will teach you what I learned, and we will go through the process of re-writing my bio together.</P>
+    <div class="parallax1"></div>
+    <p>One of the most uncomfortable things for me when I started getting booked for gigs was when promoters started asking for my “bio”.  The first time someone asked me for this, I went into an immediate panic.  Was this something I was supposed to have?  How do I go about bragging about myself?  Have I even accomplished enough to warrant a bio? 
+        Do I write it in first person or third person?  Is someone else supposed to write it?  Where do I even begin?</p>
+        <P>I recently realized that I’ve been doing this for years, and I don’t feel any less comfortable with handing out a bio.  But, it’s something that promoters ask for.  So, rather than continuing to ignore the problem, I decided to do some research on the subject and re-visit my own promotional blurb.  In this post, 
+            I will teach you what I learned, and we will go through the process of re-writing my bio together.</P> 
+    <div class="parallax2"></div>
+    <p>One of the most uncomfortable things for me when I started getting booked for gigs was when promoters started asking for my “bio”.  The first time someone asked me for this, I went into an immediate panic.  Was this something I was supposed to have?  How do I go about bragging about myself?  Have I even accomplished enough to warrant a bio? 
+        Do I write it in first person or third person?  Is someone else supposed to write it?  Where do I even begin?</p>
+        <P>I recently realized that I’ve been doing this for years, and I don’t feel any less comfortable with handing out a bio.  But, it’s something that promoters ask for.  So, rather than continuing to ignore the problem, I decided to do some research on the subject and re-visit my own promotional blurb.  In this post, 
+            I will teach you what I learned, and we will go through the process of re-writing my bio together.</P>  
+<!--PARALLAX SCROLLING EFFECT (END)-->
+<!--SLIDER START-->      
+<div class="slider-box">
+    <div id="slider">
+        <img src="images/pk1.jpg" alt="">
+        <img src="images/pk2.jpg" alt="">
+        <img src="images/pk3.webp" alt="">
+        <img src="images/pk4.jpg" alt="">
+    </div>
+    <div class="indicators">
+        <span id="btn1" class="active"></span>
+        <span id="btn2"></span>
+        <span id="btn3"></span>
+        <span id="btn4"></span>
+    </div>
+</div>
+          <script>
+             var slide = document.getElementById("slider");
+             var btn1 = document.getElementById('btn1');
+             var btn2 = document.getElementById('btn2');
+             var btn3 = document.getElementById('btn3');
+             var btn4 = document.getElementById('btn4');
+
+        btn1.onclick = function () {
+            slide.style.transform = "translateX(0px)";
+            btn1.classList.add('active');
+            btn2.classList.remove('active');
+            btn3.classList.remove('active');
+            btn4.classList.remive('active');
+        };
+        btn2.onclick = function () {
+            slide.style.transform = "translateX(-100%)";
+            btn1.classList.remove('active');
+            btn2.classList.add('active');
+            btn3.classList.remove('active');
+            btn4.classList.remove('active');
+        };
+        btn3.onclick = function () {
+            slide.style.transform = "translateX(-200%)";
+            btn1.classList.remove('active');
+            btn2.classList.remove('active');
+            btn3.classList.add('active');
+            btn4.classList.remove('active');
+        };
+        btn4.onclick = function () {
+            slide.style.transform = "translateX(-300%)";
+            btn1.classList.remove('active');
+            btn2.classList.remove('active');
+            btn3.classList.remove('active');
+            btn4.classList.add('active');
+        };
+          </script>
+<!--SLIDER END-->
+   
+<!--SHOWCASE-->
+   <showcase>
+       <h1>POPULAR COURSES WE OFFER</h1>
+       <div id="courses">
+           <div class="dj">
+               <h3>Disk Jacky</h3>
+               <img src="images/work1.jfif" width="50%" alt="dj" height="140px">
+               <a href="#" ><button class="apply">Apply Here</button></a>
+           </div>
+           <div class="floordj">
+               <h3>Floor dj</h3>
+               <img src="images/work3.jfif" alt="floordj" height="140px" >
+               <a href="#" ><button class="apply">Apply Here</button></a>
+           </div>
+           <div class="avdj">
+               <h3>Av dj</h3>
+               <img src="images/work2.jpg" alt="avdj" height="140px">
+               <a href="#" ><button class="apply">Apply Here</button></a>
+           </div>
+           <div class="disco">
+               <h3>Disco</h3>
+               <img src="images/work6.jfif" alt="disco" height="140px">
+               <a href="#" ><button class="apply">Apply Here</button></a>
+           </div>
+           <div class="jobassistance">
+               <h3>Job assistance</h3>
+               <img src="images/work9.jfif" alt="job" height="148px">
+               <a href="#" ><button class="apply">Apply Here</button></a>
+           </div>
+       </div>
+   </showcase>
+<!--END OF SHOWCASE-->
+   
+   <footer>
+       <p style="text-align: center;">Copyright &copy; 2021, Pradeepkumar</p>
+   </footer>
+    
+</body>
+</html>
+<!--END THE PROGRAM-->
